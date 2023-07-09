@@ -1,0 +1,106 @@
+:root{
+    --fontTitulos:"caprasimo", cursive;
+    --fontsub:'belanosima', cursive;
+    --fontext:'sora', cursive;
+
+    --cor1:#0678BF;
+    --cor2:#03658C;
+    --cor3:#037F8C;
+    --cor4:#038C7F;
+    --cor5:#D9AD77;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: linear-gradient(to bottom, var(--cor1),var(--cor2),var(--cor5));
+    height: 100%;
+
+}
+
+header{
+    
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.603);
+
+}
+
+header > h1{
+    font-family: var(--fontTitulos);
+    font-size: 3em;
+    color:#D9AD77;
+    text-shadow: 3px 6px 1px #0000004b;
+    padding-bottom: 10px;
+
+}
+header > h3{
+    font-family: var(--fontsub);
+    text-decoration: underline;
+    padding-bottom: 20px;
+    color: var(--cor5);
+    text-shadow: 5px 5px 5px #0000004b;
+}
+nav{
+    text-align: left;
+    padding: 10px;
+    font-family: var(--fontsub);
+}
+nav > a{
+    padding-right: 10px;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px #0000004b;
+    color:lightblue;
+    
+}
+ nav a:hover{
+    color: #D9AD77;
+    text-decoration: underline;
+    transition-duration: 0.5s;
+    
+    
+ }
+ main{
+    margin: auto;
+    background-color:rgba(173, 216, 230, 0.548);
+    padding: 0px 50px 50px 50px;
+    min-width: 320px;
+    max-width: 1250px;
+    padding: 40px;
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.61);
+
+ }
+ article > h1{
+    font-family: var(--fontTitulos);
+    font-size: 2em;
+    padding-bottom: 20px;
+    color: #D9AD77;
+    text-shadow: 2px 2px 2px black;
+
+}
+article h2{
+    font-family: var(--fontsub);
+    font-size: 1.5em;
+    padding: 20px;
+    color: #D9AD77;
+    text-shadow: 2px 2px 2px black;
+
+}
+
+article picture img{
+    text-align: center;
+}
+article > p{
+    padding-bottom: 30px;
+    font-family: var(--fontext);
+    text-align: justify;
+}
+
+footer{
+    text-align: center;
+    padding: 5px;
+}

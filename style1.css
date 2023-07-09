@@ -1,0 +1,157 @@
+:root{
+    --fontTitulos:"caprasimo", cursive;
+    --fontsub:'belanosima', cursive;
+    --fontext:'sora', cursive;
+
+    --cor1:#0678BF;
+    --cor2:#03658C;
+    --cor3:#037F8C;
+    --cor4:#038C7F;
+    --cor5:#D9AD77;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: linear-gradient(to bottom, var(--cor1),var(--cor2),var(--cor5));
+    height: 100%;
+
+}
+
+header{
+    
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.603);
+
+}
+
+header > h1{
+    font-family: var(--fontTitulos);
+    font-size: 3em;
+    color:#D9AD77;
+    text-shadow: 3px 6px 1px #0000004b;
+    padding-bottom: 10px;
+
+}
+header > h3{
+    font-family: var(--fontsub);
+    text-decoration: underline;
+    padding-bottom: 20px;
+    color: var(--cor5);
+    text-shadow: 5px 5px 5px #0000004b;
+}
+nav{
+    text-align: left;
+    padding: 10px;
+    font-family: var(--fontsub);
+}
+nav > a{
+    padding-right: 10px;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px #0000004b;
+    color:lightblue;
+    
+}
+ nav a:hover{
+    color: #D9AD77;
+    text-decoration: underline;
+    transition-duration: 0.5s;
+    
+    
+ }
+ main{
+    margin: auto;
+    background-color:rgba(173, 216, 230, 0.548);
+    padding: 0px 50px 50px 50px;
+    min-width: 320px;
+    max-width: 1250px;
+    padding: 40px;
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.61);
+
+ }
+ picture > img{
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.555);
+}
+article > h1{
+    font-family: var(--fontTitulos);
+    font-size: 2em;
+    padding-bottom: 20px;
+    color: #D9AD77;
+    text-shadow: 2px 2px 2px black;
+
+}
+article > p{
+    padding-bottom: 30px;
+    font-family: var(--fontext);
+    text-align: justify;
+
+}
+iframe{
+    text-align: center;
+}
+aside > h1{
+    font-family: var(--fontTitulos);
+    font-size: 2em;
+    padding: 20px;
+    color: #D9AD77;
+    text-shadow: 2px 2px 2px black;
+}
+aside > p{
+    padding-bottom: 0px 30px 0px;
+    font-family: var(--fontext);
+    text-align: justify;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+    font-size: 1.2em;
+}
+#img01{
+    background-image: url(img/Bandeira\ paralax1_800x.webp);
+    background-position: center right;
+    background-size: cover;
+}
+#img02{
+    background-image: url(img/Bandeira\ paralax2_400x.webp);
+    background-position: center;
+    background-size: cover;
+}
+section.img > p{
+    display: inline-block;
+     background-color: rgba(0, 0, 0, 0.329);
+     padding: 5px;}
+     section.img{
+        background-color: rgb(53, 51, 51);
+        color: white;
+        box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.527);
+        background-attachment: fixed;
+     }
+section > p{
+    padding-bottom: 30px;
+    font-family: var(--fontext);
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.678);
+    
+    
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #038C7F;
+}
+footer{
+    text-align: center;
+    padding: 5px;
+}
